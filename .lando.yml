@@ -1,0 +1,6 @@
+name: darianalexisortiz-examples
+recipe: pantheon
+config:
+  framework: drupal8
+  site: darianalexisortiz-examples
+  id: 3db6febd-f148-47be-8eec-fea593340d4b
