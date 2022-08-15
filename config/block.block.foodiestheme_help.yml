@@ -1,0 +1,22 @@
+uuid: 700c8bb5-718b-493a-9509-b2f91df7fd80
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - foodiestheme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: foodiestheme_help
+theme: foodiestheme
+region: header
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

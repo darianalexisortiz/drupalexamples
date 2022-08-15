@@ -1,0 +1,23 @@
+uuid: 5cd950a0-aa66-4b38-a27d-fcd3f5225d6d
+langcode: en
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - foodiestheme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: foodiestheme_search_form_wide
+theme: foodiestheme
+region: header
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

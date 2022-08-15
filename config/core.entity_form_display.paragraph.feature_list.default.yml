@@ -1,0 +1,31 @@
+uuid: 25317ec1-b9ee-483f-956f-684950f091a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.feature_list.field_description
+    - paragraphs.paragraphs_type.feature_list
+id: paragraph.feature_list.default
+targetEntityType: paragraph
+bundle: feature_list
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_description:
+    type: string_textfield
+    weight: -9
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

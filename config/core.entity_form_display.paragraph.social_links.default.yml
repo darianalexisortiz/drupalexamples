@@ -1,0 +1,31 @@
+uuid: 147906a7-2ce0-42fb-9a2f-10d5df3e1f62
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.social_links.field_icon
+    - paragraphs.paragraphs_type.social_links
+  module:
+    - icons
+id: paragraph.social_links.default
+targetEntityType: paragraph
+bundle: social_links
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_icon:
+    type: icon_select_widget
+    weight: -9
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

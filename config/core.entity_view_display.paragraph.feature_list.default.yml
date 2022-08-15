@@ -1,0 +1,21 @@
+uuid: 97f7fde2-5035-4db2-bf56-6737a0872233
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.feature_list.field_description
+    - paragraphs.paragraphs_type.feature_list
+id: paragraph.feature_list.default
+targetEntityType: paragraph
+bundle: feature_list
+mode: default
+content:
+  field_description:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

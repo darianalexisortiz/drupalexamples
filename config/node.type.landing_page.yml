@@ -1,0 +1,18 @@
+uuid: f2d60aeb-5dc0-4cfe-a15f-f37a825700ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Landing Page'
+type: landing_page
+description: 'Use landing page for your rich page, such a content with different element'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

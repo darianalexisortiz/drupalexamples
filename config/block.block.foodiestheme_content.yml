@@ -1,0 +1,22 @@
+uuid: 177f67e1-3c7d-496e-9a39-03a5d6d77a1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - foodiestheme
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: foodiestheme_content
+theme: foodiestheme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

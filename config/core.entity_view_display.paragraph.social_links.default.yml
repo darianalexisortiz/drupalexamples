@@ -1,0 +1,22 @@
+uuid: d5ede035-d039-4aa6-9e61-56d3471f9334
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.social_links.field_icon
+    - paragraphs.paragraphs_type.social_links
+  module:
+    - icons
+id: paragraph.social_links.default
+targetEntityType: paragraph
+bundle: social_links
+mode: default
+content:
+  field_icon:
+    type: list_icon
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

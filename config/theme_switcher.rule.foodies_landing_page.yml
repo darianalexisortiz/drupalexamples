@@ -1,0 +1,16 @@
+uuid: 84566718-88de-4cf3-a902-276709cfd107
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+id: foodies_landing_page
+label: 'Foodies Landing Page'
+weight: 0
+theme: foodiestheme
+admin_theme: ''
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/landingpage/foodies\r\n/node/2\r\n/node/2/*"

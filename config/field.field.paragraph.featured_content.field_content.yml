@@ -1,0 +1,55 @@
+uuid: ff36254a-25e8-4665-9af1-fc97569b23d0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - paragraphs.paragraphs_type.feature_list
+    - paragraphs.paragraphs_type.feature_number_description
+    - paragraphs.paragraphs_type.featured_content
+  module:
+    - entity_reference_revisions
+    - paragraph_blocks
+third_party_settings:
+  paragraph_blocks:
+    status: 1
+id: paragraph.featured_content.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: featured_content
+label: Content
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      feature_list: feature_list
+      feature_number_description: feature_number_description
+    negate: 0
+    target_bundles_drag_drop:
+      feature_list:
+        weight: 8
+        enabled: true
+      feature_number_description:
+        weight: 8
+        enabled: true
+      featured_content:
+        weight: 7
+        enabled: false
+      from_library:
+        weight: 9
+        enabled: false
+      hero:
+        weight: 10
+        enabled: false
+      image_descriptions:
+        weight: 11
+        enabled: false
+      image_link:
+        weight: 12
+        enabled: false
+field_type: entity_reference_revisions

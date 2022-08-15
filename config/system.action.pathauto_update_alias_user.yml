@@ -1,0 +1,16 @@
+uuid: 486ad7e7-2bc6-4481-b328-dc66e9c80131
+langcode: en
+status: true
+dependencies:
+  module:
+    - pathauto
+  enforced:
+    module:
+      - user
+_core:
+  default_config_hash: x_ok_ZsfA4Xk4B_hVW3O4-3PcNoK57nXLz_Dlletidg
+id: pathauto_update_alias_user
+label: 'Update URL alias'
+type: user
+plugin: pathauto_update_alias
+configuration: {  }

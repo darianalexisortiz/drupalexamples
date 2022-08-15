@@ -1,0 +1,23 @@
+uuid: caffc074-74f3-4190-ad81-9d319e179572
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_number
+    - paragraphs.paragraphs_type.feature_number_description
+id: paragraph.feature_number_description.field_number
+field_name: field_number
+entity_type: paragraph
+bundle: feature_number_description
+label: Number
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

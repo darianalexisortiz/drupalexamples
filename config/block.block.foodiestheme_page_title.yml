@@ -1,0 +1,20 @@
+uuid: 5625762b-115c-416d-9c20-8a44d310209a
+langcode: en
+status: false
+dependencies:
+  theme:
+    - foodiestheme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: foodiestheme_page_title
+theme: foodiestheme
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

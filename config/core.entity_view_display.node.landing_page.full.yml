@@ -1,0 +1,29 @@
+uuid: 84420772-6d80-45ca-b684-7b4b3319096b
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.full
+    - field.field.node.landing_page.field_content
+    - field.field.node.landing_page.layout_builder__layout
+    - node.type.landing_page
+  module:
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: false
+    allow_custom: false
+id: node.landing_page.full
+targetEntityType: node
+bundle: landing_page
+mode: full
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_content: true
+  layout_builder__layout: true

@@ -1,0 +1,39 @@
+uuid: a0da4d02-b27c-405c-9ecf-e91231990bb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.feature_number_description.field_description
+    - field.field.paragraph.feature_number_description.field_number
+    - paragraphs.paragraphs_type.feature_number_description
+id: paragraph.feature_number_description.default
+targetEntityType: paragraph
+bundle: feature_number_description
+mode: default
+content:
+  admin_title:
+    type: string_textfield
+    weight: -10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_description:
+    type: string_textfield
+    weight: -8
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_number:
+    type: number
+    weight: -9
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

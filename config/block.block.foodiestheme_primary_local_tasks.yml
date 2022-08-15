@@ -1,0 +1,22 @@
+uuid: 66d3ad08-82de-4ca7-9b76-7ab6c74c86fe
+langcode: en
+status: true
+dependencies:
+  theme:
+    - foodiestheme
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: foodiestheme_primary_local_tasks
+theme: foodiestheme
+region: header
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }
