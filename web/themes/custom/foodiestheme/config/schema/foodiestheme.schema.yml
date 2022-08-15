@@ -6,3 +6,6 @@ foodiestheme.settings:
     font_size:
       type: integer
       label: Font size
+    copyright:
+      label: Copy Right
+      type: string_textfield

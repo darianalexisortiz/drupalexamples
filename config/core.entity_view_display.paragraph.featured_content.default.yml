@@ -44,7 +44,7 @@ third_party_settings:
                   rel: ''
                   target: ''
                 third_party_settings: {  }
-            weight: 3
+            weight: 5
             additional: {  }
           9eb6f6a9-0b94-4b25-80dd-bf3f8dc9cbe1:
             uuid: 9eb6f6a9-0b94-4b25-80dd-bf3f8dc9cbe1
@@ -68,22 +68,6 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 0
             additional: {  }
-          d9bdf3ed-2534-4dbc-aab6-b5336ec0c0f1:
-            uuid: d9bdf3ed-2534-4dbc-aab6-b5336ec0c0f1
-            region: second
-            configuration:
-              id: 'field_block:paragraph:featured_content:field_description'
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              formatter:
-                type: string
-                label: hidden
-                settings:
-                  link_to_entity: false
-                third_party_settings: {  }
-            weight: 1
-            additional: {  }
           a658c78a-60a5-4b2f-bdc0-e89e79b643fa:
             uuid: a658c78a-60a5-4b2f-bdc0-e89e79b643fa
             region: second
@@ -100,6 +84,22 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 2
             additional: {  }
+          d9bdf3ed-2534-4dbc-aab6-b5336ec0c0f1:
+            uuid: d9bdf3ed-2534-4dbc-aab6-b5336ec0c0f1
+            region: second
+            configuration:
+              id: 'field_block:paragraph:featured_content:field_description'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
           a1ca1bac-68f0-49c5-b9a1-366c61b05165:
             uuid: a1ca1bac-68f0-49c5-b9a1-366c61b05165
             region: second
@@ -115,7 +115,7 @@ third_party_settings:
                   view_mode: default
                   link: ''
                 third_party_settings: {  }
-            weight: 0
+            weight: 4
             additional: {  }
         third_party_settings: {  }
 id: paragraph.featured_content.default

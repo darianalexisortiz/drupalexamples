@@ -23,5 +23,10 @@ function foodiestheme_form_system_theme_settings_alter(&$form, &$form_state) {
     '#max' => 18,
     '#default_value' => theme_get_setting('font_size'),
   ];
+  $form['foodiestheme']['copyright'] = [
+    '#type' => 'text',
+    '#title' => t('Copyright'),
+    '#default_value' => theme_get_setting('copyright'),
+  ];
 
 }
