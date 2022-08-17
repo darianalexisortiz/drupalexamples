@@ -7,6 +7,11 @@ core: 8.x
 core_version_requirement: ^8 || ^9
 libraries:
   - foodiestheme/global
+libraries-override:
+  bootstrap5/global-styling:
+    css:
+      theme:
+        css/style.css: false
 regions:
   header: 'Header'
   content: 'Content'

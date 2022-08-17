@@ -1,0 +1,16 @@
+$primary: #06c167;
+$text-color: #1D1D1F;
+$font-size-lg: $font-size-base * 1.25 !default;
+
+$btn-padding-y: 1.875rem !default;
+$btn-padding-x: 1.875rem !default;
+$btn-font-size: 1rem !default;
+$border-radius: 0rem !default;
+
+$body-color: $text-color !default;
+$link-color: $text-color !default;
+$link-decoration: none !default;
+
+$theme-colors: (
+  "primary": $primary,
+);

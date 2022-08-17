@@ -55,7 +55,12 @@
         "drupal/layout_builder_blocks": "^1.0",
         "drupal/media_library_form_element": "^2.0",
         "drupal/entity_usage": "^2.0@beta",
-        "drupal/linkicon": "^1.7"
+        "drupal/linkicon": "^1.7",
+        "drupal/layout_builder_component_attributes": "^2.1",
+        "drupal/layout_builder_styles": "^1.0@beta",
+        "drupal/paragraphs_report": "^1.1",
+        "drupal/paragraphs_usage": "^1.0",
+        "drupal/block_field": "^1.0@RC"
     },
     "require-dev": {
         "drupal/core-dev": "^9.2"

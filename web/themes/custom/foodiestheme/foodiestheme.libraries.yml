@@ -2,8 +2,7 @@
 global:
   css:
     base:
-      css/base/elements.css: {}
-    layout:
-      css/layouts/layout.css: {}
+      css/base/style.css: {}
     theme:
       'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap': { type: external }
+      'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css': { type: external }
