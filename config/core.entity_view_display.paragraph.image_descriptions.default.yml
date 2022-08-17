@@ -7,6 +7,30 @@ dependencies:
     - field.field.paragraph.image_descriptions.field_media
     - field.field.paragraph.image_descriptions.field_title
     - paragraphs.paragraphs_type.image_descriptions
+  module:
+    - field_group
+third_party_settings:
+  field_group:
+    group_g1:
+      children:
+        - field_title
+        - field_description
+      label: G1
+      parent_name: ''
+      region: content
+      weight: 3
+      format_type: html_element
+      format_settings:
+        classes: ''
+        show_empty_fields: true
+        id: ''
+        element: div
+        show_label: false
+        label_element: h3
+        label_element_classes: ''
+        attributes: ''
+        effect: none
+        speed: fast
 id: paragraph.image_descriptions.default
 targetEntityType: paragraph
 bundle: image_descriptions

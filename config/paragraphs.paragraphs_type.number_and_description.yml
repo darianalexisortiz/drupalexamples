@@ -1,0 +1,10 @@
+uuid: a8ba656e-e429-47f4-a255-a9c6aa094cbd
+langcode: en
+status: true
+dependencies: {  }
+id: number_and_description
+label: 'Number and description'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

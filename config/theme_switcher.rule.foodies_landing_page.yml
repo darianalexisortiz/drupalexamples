@@ -8,7 +8,7 @@ id: foodies_landing_page
 label: 'Foodies Landing Page'
 weight: 0
 theme: foodiestheme
-admin_theme: ''
+admin_theme: foodiestheme
 visibility:
   request_path:
     id: request_path

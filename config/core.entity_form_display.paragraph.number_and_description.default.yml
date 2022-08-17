@@ -1,0 +1,32 @@
+uuid: cab38cbd-472e-4d00-8400-d8515cc61a24
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.number_and_description.field_description
+    - field.field.paragraph.number_and_description.field_number
+    - paragraphs.paragraphs_type.number_and_description
+id: paragraph.number_and_description.default
+targetEntityType: paragraph
+bundle: number_and_description
+mode: default
+content:
+  field_description:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_number:
+    type: number
+    weight: 0
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  admin_title: true
+  created: true
+  status: true

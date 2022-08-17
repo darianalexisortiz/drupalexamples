@@ -1,15 +1,15 @@
-uuid: 147906a7-2ce0-42fb-9a2f-10d5df3e1f62
+uuid: fa6da7f7-aefb-49b0-9007-8d28e9f90294
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.social_links.field_link
-    - paragraphs.paragraphs_type.social_links
+    - field.field.paragraph.call_to_action.field_link
+    - paragraphs.paragraphs_type.call_to_action
   module:
     - link
-id: paragraph.social_links.default
+id: paragraph.call_to_action.default
 targetEntityType: paragraph
-bundle: social_links
+bundle: call_to_action
 mode: default
 content:
   field_link:
@@ -19,6 +19,11 @@ content:
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  layout_paragraphs_fields:
+    weight: -200
+    region: content
+    settings: {  }
     third_party_settings: {  }
 hidden:
   admin_title: true

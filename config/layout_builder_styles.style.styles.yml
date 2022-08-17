@@ -1,0 +1,16 @@
+uuid: a1d8565d-6ee0-4eae-b84c-fa6498afdfb0
+langcode: en
+status: true
+dependencies: {  }
+id: styles
+label: Styles
+classes: "hero\r\ntitle\r\nmain"
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions:
+  - layout_onecol
+  - layout_twocol_section
+  - layout_threecol_section
+  - layout_fourcol_section
+weight: 0

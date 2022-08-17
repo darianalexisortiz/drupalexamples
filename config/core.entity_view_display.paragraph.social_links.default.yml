@@ -3,20 +3,44 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.paragraph.social_links.field_icon
+    - field.field.paragraph.social_links.field_link
     - paragraphs.paragraphs_type.social_links
   module:
-    - icons
+    - ds
+    - linkicon
 id: paragraph.social_links.default
 targetEntityType: paragraph
 bundle: social_links
 mode: default
 content:
-  field_icon:
-    type: list_icon
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 0
+  field_link:
+    type: linkicon
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: _blank
+      linkicon_prefix: fa
+      linkicon_wrapper_class: ''
+      linkicon_icon_class: fa-brands
+      linkicon_label_class: ''
+      linkicon_load: false
+      linkicon_vertical: false
+      linkicon_style: ''
+      linkicon_color: ''
+      linkicon_tooltip: false
+      linkicon_no_text: false
+      linkicon_maxlength: 60
+      linkicon_position: ''
+      linkicon_link: false
+      linkicon_global_title: ''
+      linkicon_size: ''
+      linkicon_bundle: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    weight: 1
     region: content
 hidden: {  }

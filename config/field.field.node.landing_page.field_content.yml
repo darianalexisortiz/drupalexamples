@@ -5,15 +5,6 @@ dependencies:
   config:
     - field.storage.node.field_content
     - node.type.landing_page
-    - paragraphs.paragraphs_type.feature_list
-    - paragraphs.paragraphs_type.feature_number_description
-    - paragraphs.paragraphs_type.featured_content
-    - paragraphs.paragraphs_type.featured_image
-    - paragraphs.paragraphs_type.from_library
-    - paragraphs.paragraphs_type.image_descriptions
-    - paragraphs.paragraphs_type.image_link
-    - paragraphs.paragraphs_type.list_links
-    - paragraphs.paragraphs_type.social_links
   module:
     - entity_reference_revisions
     - paragraph_blocks
@@ -33,46 +24,58 @@ default_value_callback: ''
 settings:
   handler: 'default:paragraph'
   handler_settings:
-    target_bundles:
-      feature_list: feature_list
-      feature_number_description: feature_number_description
-      featured_content: featured_content
-      featured_image: featured_image
-      from_library: from_library
-      image_descriptions: image_descriptions
-      image_link: image_link
-      list_links: list_links
-      social_links: social_links
-    negate: 0
+    target_bundles: null
+    negate: 1
     target_bundles_drag_drop:
+      call_to_action:
+        weight: 18
+        enabled: false
       feature_list:
         weight: 11
-        enabled: true
+        enabled: false
       feature_number_description:
         weight: 12
-        enabled: true
+        enabled: false
       featured_content:
         weight: 13
-        enabled: true
+        enabled: false
       featured_image:
         weight: 14
-        enabled: true
+        enabled: false
       from_library:
         weight: 15
-        enabled: true
-      hero:
-        weight: 16
-        enabled: true
+        enabled: false
       image_descriptions:
         weight: 17
-        enabled: true
+        enabled: false
       image_link:
         weight: 18
-        enabled: true
+        enabled: false
       list_links:
         weight: 19
-        enabled: true
+        enabled: false
+      media:
+        weight: 27
+        enabled: false
+      number_and_description:
+        weight: 28
+        enabled: false
+      rich_text:
+        weight: 29
+        enabled: false
+      section:
+        weight: 30
+        enabled: false
       social_links:
         weight: 20
-        enabled: true
+        enabled: false
+      sub_title:
+        weight: 32
+        enabled: false
+      text:
+        weight: 33
+        enabled: false
+      title:
+        weight: 34
+        enabled: false
 field_type: entity_reference_revisions

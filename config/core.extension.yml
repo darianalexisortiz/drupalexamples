@@ -7,6 +7,7 @@ module:
   big_pipe_sessionless: 0
   block: 0
   block_content: 0
+  block_field: 0
   block_list_override: 0
   breakpoint: 0
   ckeditor: 0
@@ -36,8 +37,10 @@ module:
   image_link_formatter: 0
   inline_form_errors: 0
   layout_builder: 0
+  layout_builder_component_attributes: 0
   layout_builder_modal: 0
   layout_builder_operation_link: 0
+  layout_builder_styles: 0
   layout_discovery: 0
   layout_paragraphs: 0
   layout_paragraphs_library: 0

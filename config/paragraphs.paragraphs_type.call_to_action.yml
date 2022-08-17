@@ -1,4 +1,4 @@
-uuid: 8c16c41e-bbe2-42ab-82e3-71a5e1ba40bd
+uuid: 18264171-7862-4ecb-bff3-e28ad07ce1db
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,8 @@ dependencies:
 third_party_settings:
   paragraph_view_mode:
     enabled: false
-id: social_links
-label: 'Social Links'
+id: call_to_action
+label: 'Call to action'
 icon_uuid: null
 icon_default: null
 description: ''

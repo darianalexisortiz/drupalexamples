@@ -1,4 +1,4 @@
-uuid: 8c16c41e-bbe2-42ab-82e3-71a5e1ba40bd
+uuid: 7b1a9004-19dc-4246-ac52-f0c00074d3e1
 langcode: en
 status: true
 dependencies:
@@ -7,8 +7,8 @@ dependencies:
 third_party_settings:
   paragraph_view_mode:
     enabled: false
-id: social_links
-label: 'Social Links'
+id: media
+label: Media
 icon_uuid: null
 icon_default: null
 description: ''
