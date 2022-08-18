@@ -69,6 +69,43 @@ h1 {
 
 }
 
+.section--header .layout__region {
+    flex: 0 1 50%;
+}
+
+.paragraph--type--list-links {
+    nav {
+        text-align: right;
+        margin: 15px 30px;
+
+        .navbar-toggler {
+            font-size: 1.8rem !important;
+            color: $primary;
+            border: 2px solid $primary;
+            padding: 5px 10px 3px;
+
+            @media (min-width: 1000px) {
+                display: none;
+            }
+        }
+
+        .navbar-collapse {
+            @media (min-width: 1000px) {
+                display: block;
+            }
+        }
+    }
+
+    .field--type-link {
+        flex-direction: column;
+
+        @media (min-width: 1000px) {
+            flex-direction: row;
+        }
+    }
+
+}
+
 .item-list--linkicon ul {
     display: flex;
     list-style: none;
