@@ -65,8 +65,10 @@ h1, .h1 {
   }
 }
 
-.section--header .layout__region {
-  flex: 0 1 50%;
+@media (min-width: 355px) {
+  .section--header .layout__region {
+    flex: 0 1 50%;
+  }
 }
 
 .paragraph--type--list-links nav {
@@ -79,12 +81,12 @@ h1, .h1 {
   border: 2px solid #06c167;
   padding: 5px 10px 3px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1155px) {
   .paragraph--type--list-links nav .navbar-toggler {
     display: none;
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 1155px) {
   .paragraph--type--list-links nav .navbar-collapse {
     display: block;
   }
@@ -92,7 +94,7 @@ h1, .h1 {
 .paragraph--type--list-links .field--type-link {
   flex-direction: column;
 }
-@media (min-width: 1000px) {
+@media (min-width: 1155px) {
   .paragraph--type--list-links .field--type-link {
     flex-direction: row;
   }
@@ -114,7 +116,12 @@ h1, .h1 {
 .section--header .field--name-field-links {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 3rem;
+  margin: 2rem 0;
+}
+@media (min-width: 1155px) {
+  .section--header .field--name-field-links {
+    margin: 2rem 3rem;
+  }
 }
 
 .section--logos {
@@ -150,10 +157,13 @@ h1, .h1 {
   border-bottom: 2px solid rgba(112, 112, 112, 0.15);
   padding: 2rem 0;
 }
-@media only screen and (min-width: 600px) {
+.section--features .layout--fourcol-section {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media (min-width: 1155px) {
   .section--features .layout--fourcol-section {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
   }
 }
 .section--features .layout--fourcol-section .paragraph--type--image-descriptions {
@@ -162,6 +172,14 @@ h1, .h1 {
   justify-content: center;
   flex-direction: column;
   padding: 1rem 0;
+}
+@media (min-width: 1155px) {
+  .section--features .layout--fourcol-section .paragraph--type--image-descriptions {
+    flex-direction: row;
+  }
+}
+.section--features .layout--fourcol-section .paragraph--type--image-descriptions .field--type-image {
+  margin: 10px;
 }
 .section--features .layout--fourcol-section .paragraph--type--image-descriptions .field--name-field-title {
   font-size: 1.125rem;
