@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.list_links.field_links
+    - field.field.paragraph.list_links.field_mobile_menu
     - field.field.paragraph.list_links.field_title
     - paragraphs.paragraphs_type.list_links
   module:
@@ -20,6 +21,13 @@ content:
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  field_mobile_menu:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
     third_party_settings: {  }
   field_title:
     type: string_textfield

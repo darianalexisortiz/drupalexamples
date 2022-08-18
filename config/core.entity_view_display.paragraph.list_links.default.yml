@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.list_links.field_links
+    - field.field.paragraph.list_links.field_mobile_menu
     - field.field.paragraph.list_links.field_title
     - paragraphs.paragraphs_type.list_links
   module:
@@ -24,6 +25,16 @@ content:
       target: ''
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_mobile_menu:
+    type: boolean
+    label: hidden
+    settings:
+      format: default
+      format_custom_false: ''
+      format_custom_true: ''
+    third_party_settings: {  }
+    weight: 2
     region: content
   field_title:
     type: string

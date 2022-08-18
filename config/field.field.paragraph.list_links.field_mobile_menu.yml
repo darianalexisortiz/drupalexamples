@@ -1,0 +1,23 @@
+uuid: 9814725d-3b3f-4f49-ab96-1ba77c237f03
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_mobile_menu
+    - paragraphs.paragraphs_type.list_links
+id: paragraph.list_links.field_mobile_menu
+field_name: field_mobile_menu
+entity_type: paragraph
+bundle: list_links
+label: 'Use as mobile main menu'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
